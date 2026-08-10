@@ -1,7 +1,3 @@
----
-title: Sample Code of Conduct
-description: A sample CODE_OF_CONDUCT.md you can use as a starting point for your new github project.
----
 ## Code of Conduct
 ---
 ## Contributor Covenant Code of Conduct

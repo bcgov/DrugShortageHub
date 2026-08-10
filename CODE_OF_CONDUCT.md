@@ -2,7 +2,7 @@
 title: Sample Code of Conduct
 description: A sample CODE_OF_CONDUCT.md you can use as a starting point for your new github project.
 ---
-## Sample Code of Conduct
+## Code of Conduct
 ---
 ## Contributor Covenant Code of Conduct
 
@@ -61,7 +61,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+reported by contacting the project team at DHPEO@gov.bc.ca. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -73,7 +73,7 @@ members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+This Code of Conduct is adapted from the Mary Torres, version 1.4,
 available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org

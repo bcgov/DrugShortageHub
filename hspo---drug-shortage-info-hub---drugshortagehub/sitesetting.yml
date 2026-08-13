@@ -135,7 +135,6 @@
   adx_value: False
 - adx_name: ThemeFeature
   adx_sitesettingid: d1798d4f-e332-4db4-b258-3719c7831677
-  adx_value: '{"status":"enable","selectedThemeId":"f21551a1-7244-432f-ad88-220609e070d3","version":"V2"}'
 - adx_name: Site/BootstrapV5Enabled
   adx_sitesettingid: d285d12c-a47e-4fa7-bbfa-b01e6c306bbf
   adx_value: true

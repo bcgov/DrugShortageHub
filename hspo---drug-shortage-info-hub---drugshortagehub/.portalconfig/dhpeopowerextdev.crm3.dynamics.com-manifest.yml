@@ -17,11 +17,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 75bab5c2-e400-14ee-e199-f6a0f24c76ef
   DisplayName: Site name
-  CheckSum: d79e0c49fd0dc284ff5cee3f2e996d53d1888d94897c00628db9831752bc4e2d
+  CheckSum: 0c04cdbdd8a9597f26633aa738a7aada7acfa8db1798483211dc2e820d65c5f0
   IsDeleted: false
 - RecordId: 9fe580ea-d550-2f60-4c7b-7d68f0aefd4c
   DisplayName: Logo URL
-  CheckSum: 90771562dd8383537ce085eccadb33054b8f0cc3f04b32442dbaad68f8b5f963
+  CheckSum: 33efef962c60060b8822791e362462920a1c091111233000b6b2d2059ab7631e
   IsDeleted: false
 - RecordId: a07b8dee-7146-468c-8673-00ad7556959c
   DisplayName: Search/ResultsTitle
@@ -33,7 +33,7 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: dad352bd-3f8b-49ea-87d4-ef6e10372ae8
   DisplayName: Footer
-  CheckSum: f563895775f33a12f136a923f10968804bfe9199b6fd3d87c0f1b0529dd02ea4
+  CheckSum: 655946018e508ec856acbabdede409c55b09e5ac94db1ec33f98031b3ab596f8
   IsDeleted: false
 - RecordId: dd16ce10-a135-2911-bcc1-ee323ea7ee71
   DisplayName: Logo alt text
@@ -258,7 +258,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: d1798d4f-e332-4db4-b258-3719c7831677
   DisplayName: ThemeFeature
-  CheckSum: e0340094afb18fd6b7afa6aa5009df9b35d402574011d56695887a9dad236605
+  CheckSum: 0e4d7a34fe9d01a2f4f4eebe2af68148b9e409952fc27fde4e28168a07a929ca
   IsDeleted: false
 - RecordId: d285d12c-a47e-4fa7-bbfa-b01e6c306bbf
   DisplayName: Site/BootstrapV5Enabled
@@ -307,7 +307,7 @@ adx_webfile:
   IsDeleted: false
 - RecordId: 51c1c6ba-1ade-4d27-b661-e7e3d5a515fe
   DisplayName: portalbasictheme.css
-  CheckSum: f787bf85dd498376ec184e38d985732147685221aae5930d9335c52a7783d574
+  CheckSum: c3ea6008ccb1e053f8687f3fac0e4a137c57a80255db3d07cf17037db9d33430
   IsDeleted: false
 - RecordId: 62a24e42-3922-4818-ad44-5017b76be129
   DisplayName: Logo-sm-64.png
@@ -320,6 +320,10 @@ adx_webfile:
 - RecordId: 8c37fe5b-315a-4d41-a37f-2ab081af83cf
   DisplayName: robots.txt
   CheckSum: b25b72784f5079ddfdd29f2b473bd89372b629e907110af2a1c5866dfd227878
+  IsDeleted: false
+- RecordId: be798403-26ce-06d3-5659-4c44804adadc
+  DisplayName: GREY (1)
+  CheckSum: 01d22ecca16898a7a14c2992c86cfc07fe6737a19d1b0595c5807e11b0a4169a
   IsDeleted: false
 - RecordId: f5e2bec0-f118-4ccb-a8c2-71789206fce5
   DisplayName: bootstrap.min.css
@@ -489,6 +493,14 @@ adx_webtemplate:
   CheckSum: edec1c48a28ede71c6fed8c14f9a45b5c798382ffd3b91a1a2a9b6539219a0c9
   IsDeleted: false
 annotation:
+- RecordId: 2806f94e-4897-f111-b8dc-6045bdcd6b0f
+  DisplayName: GREY%20(1)
+  CheckSum: 0c19a8ab30d41c2407085a28d3847ee2b7dd69ae7c9444eaa18c97bb9c92cd29
+  IsDeleted: false
+- RecordId: a69f394f-4897-f111-b8dc-6045bdcd611e
+  DisplayName: portalbasictheme.css
+  CheckSum: 0a2b9d278a2893d789972e8d8fdaf71146bd5fc2a1888998e97a818990c2562a
+  IsDeleted: false
 - RecordId: ab68bdbc-2691-f111-8077-7ced8d067b77
   DisplayName: Cat-PC.png
   CheckSum: 58a3db2327a172ba796299be7c2f1884bce7732b576e291ab5323a1811d5af33
@@ -504,7 +516,7 @@ annotation:
 - RecordId: b70984bd-2691-f111-8077-6045bdcd628b
   DisplayName: portalbasictheme.css
   CheckSum: a323ec96dbf9585558220c08a4fdebfb28535f8c11073cfa8bf7c635290075c5
-  IsDeleted: false
+  IsDeleted: true
 - RecordId: d7a26bbf-2691-f111-8077-6045bdcd611e
   DisplayName: robots.txt
   CheckSum: fe504bedffadd0e00c3a515039ca04560f3b5b8a86bc64ec3c0e09b1f5f67698

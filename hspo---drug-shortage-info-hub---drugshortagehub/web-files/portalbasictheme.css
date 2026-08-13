@@ -4,26 +4,26 @@
  * change to this file will get overwritten with a theme applied using
  * Site Styling panel from Power Apps Portals.
  */
- :root {
-  --portalThemeColor1: #B6B4B2;
+:root {
+  --portalThemeColor1: #ffffff;
   --portalThemeColor2: #605E5C;
   --portalThemeColor3: #F3F2F1;
   --portalThemeColor4: #323130;
   --portalThemeColor5: #F8F8F8;
   --portalThemeColor6: #5C5A58;
   --portalThemeColor7: #FFFFFF;
-  --portalThemeColor8: #000000;
+  --portalThemeColor8: #1c26b8;
   --portalThemeColor9: #191817;
   --portalThemeColor10: ;
   --portalThemeColor11: ;
   --portalThemeColor12: ;
-  --portalThemeOnColor1: #000000;
+  --portalThemeOnColor1: #1c26b8;
   --portalThemeOnColor2: #FFFFFF;
-  --portalThemeOnColor3: #000000;
+  --portalThemeOnColor3: #1c26b8;
   --portalThemeOnColor4: #FFFFFF;
-  --portalThemeOnColor5: #000000;
+  --portalThemeOnColor5: #1c26b8;
   --portalThemeOnColor6: #FFFFFF;
-  --portalThemeOnColor7: #000000;
+  --portalThemeOnColor7: #1c26b8;
   --portalThemeOnColor8: #FFFFFF;
   --portalThemeOnColor9: #FFFFFF;
   --portalThemeOnColor10: ;
@@ -115,13 +115,13 @@ footer {
   font-weight: 400;
   font-size: 16px; }
   footer .footer-bottom {
-    background-color: #5C5A58; }
+    background-color: #1c26b8; }
 
 .columnBlockLayout {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 16px; }
- 
+
 .ppFlexContainer {
   display: flex;
   flex-wrap: wrap;
@@ -196,7 +196,7 @@ footer {
     border-color: #191817; }
 
 .static-top.navbar-dark {
-  background-color: #B6B4B2; }
+  background-color: #ffffff; }
 
 .navbar-toggler {
   background-color: #323130; }
@@ -204,7 +204,8 @@ footer {
 .static-top.navbar .menu-bar > .navbar-nav > li > a {
   font-family: Arial;
   font-weight: 400;
-  font-size: 20px; }
+  font-size: 20px;
+  border: 1px solid transparent; }
   .static-top.navbar .menu-bar > .navbar-nav > li > a:hover {
     text-decoration: Underline; }
 
@@ -220,7 +221,7 @@ footer {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFFFFF'  stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .navbar-dark .navbar-nav > li > a, .navbar-dark .navbar-nav > li.dropdown > a {
-  color: #000000;
+  color: #1c26b8;
   font-family: Arial;
   font-weight: 400;
   font-size: 20px; }
@@ -529,7 +530,7 @@ h1 p {
   font-family: Arial;
   font-weight: 400;
   font-size: 40px;
-  color: #000000;
+  color: #1c26b8;
   margin-left: 0px;
   margin-right: 0px; }
 
@@ -542,7 +543,7 @@ h2 p {
   font-family: Arial;
   font-weight: 400;
   font-size: 36px;
-  color: #000000; }
+  color: #1c26b8; }
 
 h3,
 .h3,
@@ -552,7 +553,7 @@ h3,
   font-family: Arial;
   font-weight: 400;
   font-size: 24px;
-  color: #000000; }
+  color: #1c26b8; }
 
 h4,
 .h4,
@@ -561,14 +562,14 @@ h4,
   font-family: Arial;
   font-weight: 700;
   font-size: 24px;
-  color: #000000; }
+  color: #1c26b8; }
 
 h5,
 .h5 {
   font-family: Arial;
   font-weight: 700;
   font-size: 14px;
-  color: #000000; }
+  color: #1c26b8; }
 
 p,
 .p,
@@ -579,13 +580,13 @@ p.form-text span {
   font-family: Arial;
   font-weight: 400;
   font-size: 20px;
-  color: #000000; }
+  color: #1c26b8; }
 
 .p2 {
   font-family: Arial;
   font-weight: 400;
   font-size: 16px;
-  color: #000000; }
+  color: #1c26b8; }
 
 .button1 {
   color: #FFFFFF;
@@ -602,21 +603,18 @@ p.form-text span {
   align-items: center;
   justify-content: center;
   background-color: #323130; }
-
-.button1:hover {
-  color: #FFFFFF;
-  background-color: #191817;
-  border-color: #191817; }
-
-.button1:active, .button1.active {
-  color: #FFFFFF !important;
-  background-color: #191817 !important;
-  border-color: #191817 !important; }
-
-.button1:focus, .button1.focus, .button1:focus-visible {
-  color: #FFFFFF;
-  background-color: #191817;
-  border-color: #191817; }
+  .button1:hover {
+    color: #FFFFFF;
+    background-color: #191817;
+    border-color: #191817; }
+  .button1:active, .button1.active {
+    color: #FFFFFF !important;
+    background-color: #191817 !important;
+    border-color: #191817 !important; }
+  .button1:focus, .button1.focus, .button1:focus-visible {
+    color: #FFFFFF;
+    background-color: #191817;
+    border-color: #191817; }
 
 .button2, .btn-secondary, .btn-default {
   color: #323130;
@@ -633,21 +631,18 @@ p.form-text span {
   align-items: center;
   justify-content: center;
   background-color: transparent; }
-
-.button2:hover, .btn-default:hover {
-  color: #FFFFFF;
-  background-color: #323130;
-  border-color: #323130; }
-
-.button2:active, .button2.active, .btn-default:active, .btn-default.active {
-  color: #FFFFFF !important;
-  background-color: #323130 !important;
-  border-color: #323130 !important; }
-
-.button2:focus, .button2.focus, .button2:focus-visible, .btn-default:focus, .btn-default.focus, .btn-default:focus-visible {
-  color: #FFFFFF;
-  background-color: #323130;
-  border-color: #323130; }
+  .button2:hover, .btn-secondary:hover, .btn-default:hover {
+    color: #FFFFFF;
+    background-color: #323130;
+    border-color: #323130; }
+  .button2:active, .button2.active, .btn-secondary:active, .btn-secondary.active, .btn-default:active, .btn-default.active {
+    color: #FFFFFF !important;
+    background-color: #323130 !important;
+    border-color: #323130 !important; }
+  .button2:focus, .button2.focus, .button2:focus-visible, .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:focus-visible, .btn-default:focus, .btn-default.focus, .btn-default:focus-visible {
+    color: #FFFFFF;
+    background-color: #323130;
+    border-color: #323130; }
 
 .static-top.navbar-dark .navbar-brand a p,
 .static-top.navbar-dark .navbar-brand a h1,
@@ -658,14 +653,14 @@ p.form-text span {
 .static-top.navbar-dark .navbar-brand a span {
   display: inline;
   vertical-align: middle;
-  color: #000000; }
+  color: #1c26b8; }
 
 h1.siteTitle,
 .static-top.navbar-dark .navbar-brand a h1.siteTitle,
 .static-top.navbar-dark .navbar-brand a h1.siteTitle > span {
   display: inline;
   vertical-align: middle;
-  color: #000000;
+  color: #1c26b8;
   font-family: Arial;
   font-weight: 400;
   font-size: 30px; }
@@ -732,6 +727,20 @@ a.anchor-hover-text-decoration-underline:hover {
   text-decoration: underline; }
 
 /*Bootstrap V5 Changes */
+.form-select, .crmentityformview select {
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none' d='m2 5 6 6 6-6'/%3E%3C/svg%3E"); }
+
+.table-striped, .table-info, .table-striped > tbody > tr:nth-of-type(odd) > *, .form-control:focus, .dropdown-menu, .datepicker button {
+  color: #000000; }
+
+.popover-body {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #f2f2f2; }
+
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   display: block;
@@ -765,7 +774,7 @@ h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 10.5px; }
 
 a.nav-link[role="tab"]:not(.active) {
-  color: var(--portalThemeColor8);
+  color: #323130;
   font-family: Arial;
   font-weight: 400;
   font-size: 14px; }
@@ -777,13 +786,5 @@ a.active.nav-link[role="tab"] {
 .crmEntityFormView label {
   background-color: #FFFFFF;
   color: #000000; }
-
-/*Bootstrap V5 Changes */
-.form-select, .crmentityformview select {
-  background-repeat: no-repeat;
-  background-position: right .75rem center;
-  background-size: 16px 12px;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
-}
 
 /* till here */
